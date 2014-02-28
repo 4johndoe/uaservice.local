@@ -1,0 +1,225 @@
+2014-02-24 06:26:49 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 06:27:03 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/Firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 06:27:11 Error: [MissingViewException] View file "/var/www/myapp/View/Firms/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/myapp/View/Firms/index.ctp',
+)
+Request URL: /myapp/firms
+Stack Trace:
+#0 /var/www/ekmt/lib/Cake/View/View.php(457): View->_getViewFileName(NULL)
+#1 /var/www/ekmt/lib/Cake/Controller/Controller.php(952): View->render(NULL, NULL)
+#2 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(192): Controller->render()
+#3 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FirmsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-02-24 06:31:44 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 06:31:46 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 06:32:24 Error: [MissingControllerException] Controller class LicsController could not be found.
+Exception Attributes: array (
+  'class' => 'LicsController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/lics
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-24 12:37:58 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 06:29:56 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 06:29:59 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.firms' doesn't exist
+Request URL: /myapp/firms
+Stack Trace:
+#0 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/ekmt/lib/Cake/Model/Datasource/Database/Mysql.php(331): DboSource->_execute('SHOW FULL COLUM...')
+#2 /var/www/ekmt/lib/Cake/Model/Model.php(1358): Mysql->describe(Object(Firm))
+#3 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(2293): Model->schema()
+#4 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(1047): DboSource->fields(Object(Firm))
+#5 /var/www/ekmt/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Firm), Array)
+#6 /var/www/ekmt/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#7 /var/www/ekmt/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /var/www/myapp/Controller/FirmsController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: FirmsController->index()
+#10 /var/www/ekmt/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FirmsController), Array)
+#11 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FirmsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-02-25 06:37:30 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.firms' doesn't exist
+Request URL: /myapp/firms
+Stack Trace:
+#0 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /var/www/ekmt/lib/Cake/Model/Datasource/Database/Mysql.php(331): DboSource->_execute('SHOW FULL COLUM...')
+#2 /var/www/ekmt/lib/Cake/Model/Model.php(1358): Mysql->describe(Object(Firm))
+#3 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(2293): Model->schema()
+#4 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(1047): DboSource->fields(Object(Firm))
+#5 /var/www/ekmt/lib/Cake/Model/Model.php(2902): DboSource->read(Object(Firm), Array)
+#6 /var/www/ekmt/lib/Cake/Model/Model.php(2874): Model->_readDataSource('all', Array)
+#7 /var/www/ekmt/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /var/www/myapp/Controller/FirmsController.php(25): PaginatorComponent->paginate()
+#9 [internal function]: FirmsController->index()
+#10 /var/www/ekmt/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FirmsController), Array)
+#11 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#12 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FirmsController), Object(CakeRequest), Object(CakeResponse))
+#13 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-02-25 06:37:33 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:40:30 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:42:55 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:42:57 Error: [MissingControllerException] Controller class FirmController could not be found.
+Exception Attributes: array (
+  'class' => 'FirmController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:48:01 Error: [MissingControllerException] Controller class LicsController could not be found.
+Exception Attributes: array (
+  'class' => 'LicsController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/lics
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:49:11 Error: [MissingControllerException] Controller class LicsController could not be found.
+Exception Attributes: array (
+  'class' => 'LicsController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/lics/add
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:51:28 Error: [MissingControllerException] Controller class LicsController could not be found.
+Exception Attributes: array (
+  'class' => 'LicsController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/lics/add
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:51:35 Error: [MissingControllerException] Controller class ашкьController could not be found.
+Exception Attributes: array (
+  'class' => 'ашкьController',
+  'plugin' => NULL,
+)
+Request URL: /myapp/%D0%B0%D1%88%D0%BA%D1%8C
+Stack Trace:
+#0 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-02-25 07:52:24 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1115] Unknown character set: \'utf\'',
+  'enabled' => true,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/ekmt/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/ekmt/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /var/www/ekmt/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/ekmt/lib/Cake/Model/Model.php(3498): Model->setSource('firm')
+#5 /var/www/ekmt/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/ekmt/lib/Cake/Controller/Scaffold.php(136): Model->schema()
+#7 /var/www/ekmt/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(FirmController), Object(CakeRequest))
+#8 /var/www/ekmt/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FirmController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-02-25 07:52:37 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[42000] [1115] Unknown character set: \'utf\'',
+  'enabled' => true,
+)
+Request URL: /myapp/firm
+Stack Trace:
+#0 /var/www/ekmt/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/ekmt/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/ekmt/lib/Cake/Model/Model.php(3476): ConnectionManager::getDataSource('default')
+#3 /var/www/ekmt/lib/Cake/Model/Model.php(1126): Model->setDataSource('default')
+#4 /var/www/ekmt/lib/Cake/Model/Model.php(3498): Model->setSource('firm')
+#5 /var/www/ekmt/lib/Cake/Model/Model.php(1355): Model->getDataSource()
+#6 /var/www/ekmt/lib/Cake/Controller/Scaffold.php(136): Model->schema()
+#7 /var/www/ekmt/lib/Cake/Controller/Controller.php(535): Scaffold->__construct(Object(FirmController), Object(CakeRequest))
+#8 /var/www/ekmt/lib/Cake/Controller/Controller.php(494): Controller->_getScaffold(Object(CakeRequest))
+#9 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(185): Controller->invokeAction(Object(CakeRequest))
+#10 /var/www/ekmt/lib/Cake/Routing/Dispatcher.php(160): Dispatcher->_invoke(Object(FirmController), Object(CakeRequest), Object(CakeResponse))
+#11 /var/www/myapp/webroot/index.php(99): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
